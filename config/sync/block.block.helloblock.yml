@@ -1,0 +1,20 @@
+uuid: 1b58a319-5d76-45b9-b3a5-9b61d87b46bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - hello_world
+  theme:
+    - olivero
+id: helloblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: 'Hello block'
+  label_display: visible
+  provider: hello_world
+visibility: {  }

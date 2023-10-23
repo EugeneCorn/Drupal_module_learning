@@ -1,0 +1,20 @@
+uuid: a2301451-78ed-4a5f-a6fb-9eee6c192c30
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_block
+  theme:
+    - olivero
+id: helloworld
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: my_block_hello_world
+settings:
+  id: my_block_hello_world
+  label: 'Exchange Rates'
+  label_display: visible
+  provider: my_block
+visibility: {  }
